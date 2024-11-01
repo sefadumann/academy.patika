@@ -1,14 +1,20 @@
 Proje 2: Merge Sort
 Dizi: [16, 21, 11, 8, 12, 22]
 
-Soru:1 Merge Sort Adımları:
+#1. Merge Sort Adımları:
 
+a) Parçalara ayırma:
 [16,21,11] ve [8,12,22] olarak ikiye böl.
 [16,21] - [11] ve [8,12] - [22] olarak bölmeye devam et.
 [16] - [21] - [11] ve [8] - [12] - [22] olarak en küçük parçalara ayır.
 
-Parçaları sıralayarak birleştir: [16,21] [11] ve [8,12] [22]
-Birleştirilen dizileri tekrar birleştir: [11,16,21] ve [8,12,22]
-Son olarak tamamını birleştir: [8,11,12,16,21,22]
-Big-O Gösterimi
+b) Parçaları sıralayarak birleştir: 
+
+[16,21] [11] ve [8,12] [22]
+[11,16,21] ve [8,12,22]
+[8,11,12,16,21,22]
+
+
+#2. Big-O Gösterimi
+
 Big-O: O(n log n)
